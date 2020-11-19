@@ -7,6 +7,9 @@
 # Unignore all dirs
 !*/
 
+# Unignore all makefiles
+!Makefile
+
 ### Above combination will ignore all files without extension ###
 
 # Ignore files with extension `.class` & `.sm`
