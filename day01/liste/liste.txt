@@ -1,0 +1,29 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+/*
+Tag : 1.........   19
+Tag : 2.........   64
+Tag : 3.........   80
+Tag : 4.........   86
+Tag : 5.........   32
+Tag : 6.........   58
+Tag : 7.........   16
+Tag : 8.........   92
+Tag : 9.........   37
+Tag : 10........   72
+---------------------
+*/
+
+int main()
+{
+	srand(time(0));
+	for (int i = 0; i < 10; i++)
+	{
+		// zufallszahlen zwischen 0 und 99
+		int zufall = rand() % 100;
+		cout << i << " " << zufall << endl;
+	}
+}
